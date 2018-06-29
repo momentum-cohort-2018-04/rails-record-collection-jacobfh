@@ -1,0 +1,1599 @@
+Started GET "/" for 127.0.0.1 at 2018-05-16 14:29:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 333ms (Views: 322.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-16 14:33:52 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 14:34:08 -0400
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for AlbumsController):
+  
+actionpack (5.2.0) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 14:34:55 -0400
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for AlbumsController):
+  
+actionpack (5.2.0) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-05-16 14:35:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:36:09 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:36:36 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:36:48 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/app/views/albums/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+...end=( form.label :year released );@output_buffer.safe_append...
+...                       ^~~~~~~~):
+  
+app/views/albums/new.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:37:12 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:40:23 -0400
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:40:29 -0400
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:40:35 -0400
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:40:40 -0400
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.0) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.0) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateAlbums (20180516184005)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "albums" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "artist" varchar, "released" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20180516184005_create_albums.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180516184005"]]
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-16 18:41:03.371495"], ["updated_at", "2018-05-16 18:41:03.371495"]]
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-05-16 14:41:06 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jacob/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:41:09 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/app/views/albums/new.html.erb:4: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+...:album, url: albums_path local: true do |form| @output_buffe...
+...                         ^~~~~~
+/Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/app/views/albums/new.html.erb:25: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/albums/new.html.erb:4: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+app/views/albums/new.html.erb:25: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:41:53 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:43:58 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:43:59 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:44:02 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 14:44:24 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kaZPhpPL+ZkWgVCM6W8F2MnvaiAhKVnSFI+OXFsi7EiU6KYX8OGI1jMGNXu3eWWJ4/DV2su1OTh9aXzwlKCQpw==", "album"=>{"title"=>"1976"}, "commit"=>"Save Album"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/albums_controller.rb:6:in `create'
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:54:51 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 14:54:53 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mvciG/kXGb8cerMKCeBZhSW29Y28LRHHX7YrC5iuTPCfucuKmj1o8Dn91v1X9jnUD6lKd1axcS02UNmnVywwHw==", "album"=>{"title"=>""}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[36mAlbum Create (0.4ms)[0m  [1m[32mINSERT INTO "albums" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2018-05-16 18:54:53.041589"], ["updated_at", "2018-05-16 18:54:53.041589"]]
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+Redirected to http://localhost:3000/albums/1
+Completed 302 Found in 14ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/albums/1" for 127.0.0.1 at 2018-05-16 14:54:53 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:13
+Completed 406 Not Acceptable in 108ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::UnknownFormat (AlbumsController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.0) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.0) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.0) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.0) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:57:07 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 14:57:20 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dgvQSAMLYEjbgONDEk7HrVSx2e7JxTKsZBQgiHc2IEFzRTnZYCERB/4HhrRMWKf8fq5mFCNZUkYN8tIkuLRcrg==", "album"=>{"title"=>"1971"}, "commit"=>"Save Album"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[36mAlbum Create (0.5ms)[0m  [1m[32mINSERT INTO "albums" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "1971"], ["created_at", "2018-05-16 18:57:20.974976"], ["updated_at", "2018-05-16 18:57:20.974976"]]
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+Redirected to http://localhost:3000/albums/2
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/albums/2" for 127.0.0.1 at 2018-05-16 14:57:20 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:13
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums/2" for 127.0.0.1 at 2018-05-16 14:57:58 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:13
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 14:58:01 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dgvQSAMLYEjbgONDEk7HrVSx2e7JxTKsZBQgiHc2IEFzRTnZYCERB/4HhrRMWKf8fq5mFCNZUkYN8tIkuLRcrg==", "album"=>{"title"=>"1971"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[36mAlbum Create (0.4ms)[0m  [1m[32mINSERT INTO "albums" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "1971"], ["created_at", "2018-05-16 18:58:01.243514"], ["updated_at", "2018-05-16 18:58:01.243514"]]
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+Redirected to http://localhost:3000/albums/3
+Completed 302 Found in 7ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/albums/3" for 127.0.0.1 at 2018-05-16 14:58:01 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:13
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:59:02 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 14:59:04 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 14:59:13 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EUP2aq9Jyqz2m0/ywXbxD7IXU1BVXjLVTsDtnWwDtOgUDR/7zGO749McKgWfYJFemAjsqr/CUj8nJh8xo4HIBw==", "album"=>{"title"=>"Freedom Flight", "artist"=>"Shuggie Otis", "released"=>"1971"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[36mAlbum Create (0.5ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Freedom Flight"], ["artist", "Shuggie Otis"], ["released", "1971"], ["created_at", "2018-05-16 18:59:13.446132"], ["updated_at", "2018-05-16 18:59:13.446132"]]
+  ↳ app/controllers/albums_controller.rb:8
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:8
+Redirected to http://localhost:3000/albums/4
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/albums/4" for 127.0.0.1 at 2018-05-16 14:59:13 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:13
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:02:24 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `text' for #<Album:0x00007fc8fe5cf228>):
+    12:   <% @albums.each do |album| %>
+    13:     <tr>
+    14:       <td><%= album.title %></td>
+    15:       <td><%= album.text %></td>
+    16:       <td><%= link_to 'Show', album_path(album) %></td>
+    17:     </tr>
+    18:   <% end %>
+  
+app/views/albums/index.html.erb:15:in `block in _app_views_albums_index_html_erb___3273202196254978039_70250638652080'
+app/views/albums/index.html.erb:12:in `_app_views_albums_index_html_erb___3273202196254978039_70250638652080'
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:03:17 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:03:51 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:05:52 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:06:38 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:06:40 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:06:41 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/3" for 127.0.0.1 at 2018-05-16 15:06:44 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:17
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/albums/4" for 127.0.0.1 at 2018-05-16 15:06:46 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:17
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:07:44 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:07:45 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums/4" for 127.0.0.1 at 2018-05-16 15:07:46 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:17
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:07:47 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:13:07 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 32ms (Views: 26.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:13:10 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    3: 
+    4: <%= form_with scope: :album, url: albums_path, local: true do |form| %>
+    5: 
+    6:     <% if @album.errors.any? %>
+    7:     <div id="error_explanation">
+    8:       <h2>
+    9:         <%= pluralize(@album.errors.count, "error") %> prohibited
+  
+app/views/albums/new.html.erb:6:in `block in _app_views_albums_new_html_erb__441879507919051658_70250603355160'
+app/views/albums/new.html.erb:4:in `_app_views_albums_new_html_erb__441879507919051658_70250603355160'
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:14:37 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 36ms (Views: 27.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:14:39 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HaztCX9gjMkg+TRFPYR8jKoL0hlfPhB3IhY+MZNqlZ0Y4gSYHEr9hgV+UbJjkhzdgBRt47WicJ1L8MydXOjpcg==", "album"=>{"title"=>"", "artist"=>"", "released"=>""}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/albums_controller.rb:13
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:21:29 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 44ms (Views: 38.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:27:41 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 40ms (Views: 33.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:27:50 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/albums/3" for 127.0.0.1 at 2018-05-16 15:28:51 -0400
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5Hun39gVHSkNQssn3wBhXbZmBmbtFA2R+Q/AObSnQ3/hNU5Ouz9sZijFrtCBFgEMnHm5nAeIbXuQ6TKVeyU/kA==", "id"=>"3"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:40
+  [1m[36mAlbum Destroy (0.3ms)[0m  [1m[31mDELETE FROM "albums" WHERE "albums"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/albums_controller.rb:40
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:40
+Completed 500 Internal Server Error in 150ms (ActiveRecord: 3.3ms)
+
+
+  
+NameError (undefined local variable or method `articles_path' for #<AlbumsController:0x00007fc8fccd7ce8>):
+  
+app/controllers/albums_controller.rb:42:in `destroy'
+Started DELETE "/albums/3" for 127.0.0.1 at 2018-05-16 15:29:12 -0400
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5Hun39gVHSkNQssn3wBhXbZmBmbtFA2R+Q/AObSnQ3/hNU5Ouz9sZijFrtCBFgEMnHm5nAeIbXuQ6TKVeyU/kA==", "id"=>"3"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:39
+Completed 404 Not Found in 3ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Album with 'id'=3):
+  
+app/controllers/albums_controller.rb:39:in `destroy'
+Started GET "/albums/" for 127.0.0.1 at 2018-05-16 15:29:22 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/albums/1" for 127.0.0.1 at 2018-05-16 15:29:25 -0400
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1csrgDoCXnRLtXyvkzmtHwjmmqLwSDIiIL5TYHG9xxnQhcIRWSgvO24yGVjNL81OIvklWBrUUshJWKHMvj+79g==", "id"=>"1"}
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:40
+  [1m[36mAlbum Destroy (0.4ms)[0m  [1m[31mDELETE FROM "albums" WHERE "albums"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/albums_controller.rb:40
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:40
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 8ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:29:25 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 24.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/albums/2" for 127.0.0.1 at 2018-05-16 15:29:27 -0400
+Processing by AlbumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZvjHEZ0sFj56j1e2O2JvhldCBCq09xNyStamyydjhVJjti6A/gZncV8IMkFldA/XfV270F5rc5gjMFRn6OH5vQ==", "id"=>"2"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:40
+  [1m[36mAlbum Destroy (0.8ms)[0m  [1m[31mDELETE FROM "albums" WHERE "albums"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/albums_controller.rb:40
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:40
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 6ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:29:27 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 30ms (Views: 25.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:29:30 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:29:58 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hoz7wvSpm7oZcpl3gVhAd4Vs5YiuAr6kImHexZq7GkI3qDCfEtgvobhccZyAggr04zeC2DyJKPxm3Sdt2M+G1A==", "album"=>{"title"=>"Maggot Brain", "artist"=>"Funkadelic", "released"=>"1971"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (2.2ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Maggot Brain"], ["artist", "Funkadelic"], ["released", "1971"], ["created_at", "2018-05-16 19:29:58.585132"], ["updated_at", "2018-05-16 19:29:58.585132"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/5
+Completed 302 Found in 9ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/albums/5" for 127.0.0.1 at 2018-05-16 15:29:58 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (182.6ms)
+Completed 500 Internal Server Error in 193ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `album' for #<#<Class:0x00007fc902229c50>:0x00007fc8fe666600>
+Did you mean?  @album):
+    14: <%= @album.released %>
+    15: </p>
+    16: 
+    17: <%= link_to 'Edit', edit_album_path(album) %>
+    18: <%= link_to 'Back', albums_path %>
+  
+app/views/albums/show.html.erb:17:in `_app_views_albums_show_html_erb___1562804819395597349_70250619156800'
+Started GET "/albums/5" for 127.0.0.1 at 2018-05-16 15:30:27 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (195.7ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `album' for #<#<Class:0x00007fc902229c50>:0x00007fc90221c8e8>
+Did you mean?  @album):
+    14: <%= @album.released %>
+    15: </p>
+    16: 
+    17: <%= link_to 'Edit', edit_albums_path(album) %>
+    18: <%= link_to 'Back', albums_path %>
+  
+app/views/albums/show.html.erb:17:in `_app_views_albums_show_html_erb___1562804819395597349_70250650462460'
+Started GET "/albums/5" for 127.0.0.1 at 2018-05-16 15:30:55 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (240.5ms)
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `edit_albums_path' for #<#<Class:0x00007fc902229c50>:0x00007fc8fd549fe8>
+Did you mean?  edit_album_path):
+    14: <%= @album.released %>
+    15: </p>
+    16: 
+    17: <%= link_to 'Edit', edit_albums_path %>
+    18: <%= link_to 'Back', albums_path %>
+  
+app/views/albums/show.html.erb:17:in `_app_views_albums_show_html_erb___1562804819395597349_70250610259640'
+Started GET "/albums/5" for 127.0.0.1 at 2018-05-16 15:31:18 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (172.8ms)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `album' for #<#<Class:0x00007fc902229c50>:0x00007fc900edc850>
+Did you mean?  @album):
+    14: <%= @album.released %>
+    15: </p>
+    16: 
+    17: <%= link_to 'Edit', edit_album_path(album) %>
+    18: <%= link_to 'Back', albums_path %>
+  
+app/views/albums/show.html.erb:17:in `_app_views_albums_show_html_erb___1562804819395597349_70250640369840'
+Started GET "/albums/5" for 127.0.0.1 at 2018-05-16 15:31:32 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:31:35 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 29.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/5/edit" for 127.0.0.1 at 2018-05-16 15:31:38 -0400
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:11
+  Rendering albums/edit.html.erb within layouts/application
+  Rendered albums/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:32:04 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:32:10 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5oLlJfgLGaCnak2TIeQ6PTVdc5lEPs44mUv3kQ8vM5fPpi54HnqtuwZEpXggPnC+UwYUyda1WGDd9w45TVuvAQ==", "album"=>{"title"=>"Fragile", "artist"=>"Yes", "released"=>"1971"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.3ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Fragile"], ["artist", "Yes"], ["released", "1971"], ["created_at", "2018-05-16 19:32:10.947581"], ["updated_at", "2018-05-16 19:32:10.947581"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/6
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/albums/6" for 127.0.0.1 at 2018-05-16 15:32:10 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 39.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:32:13 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:33:49 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:34:02 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y8MPKMDDt5EHaAMgL/j2RB6jAsRR6SzzLgf4IAAFdTHi58R1JrIDiqZG68suIrzHePhllMNiuqtquwGIQnHppw==", "album"=>{"title"=>"Blind Joe Death", "artist"=>"John Fahey", "released"=>"1959"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.5ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Blind Joe Death"], ["artist", "John Fahey"], ["released", "1959"], ["created_at", "2018-05-16 19:34:02.825296"], ["updated_at", "2018-05-16 19:34:02.825296"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/7
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/albums/7" for 127.0.0.1 at 2018-05-16 15:34:02 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:34:04 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:34:05 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:34:42 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rml8SP5TCJ8r24+Zsz/FLpDQ0SnKtqKOzarwe7vU18iHTbcVGCK8hIr1Z3Ky5Y+t9ou2eVg9NNaJFgnT+aBLXg==", "album"=>{"title"=>"Blue Lester", "artist"=>"Lester Young", "released"=>"1956"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.7ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Blue Lester"], ["artist", "Lester Young"], ["released", "1956"], ["created_at", "2018-05-16 19:34:42.214979"], ["updated_at", "2018-05-16 19:34:42.214979"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/8
+Completed 302 Found in 6ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/albums/8" for 127.0.0.1 at 2018-05-16 15:34:42 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:34:43 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:35:31 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 31.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:35:45 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:36:24 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:36:35 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o7rkAGNuuP+54V9BCmOeaB2ArDesEAOz/DrYDMHV/MmKni9dhR8M5BjPt6oLudTre9vLZz6bleu4hiGkg6FgXw==", "album"=>{"title"=>"Hotter Than July", "artist"=>"Stevie Wonder", "released"=>"1980"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.6ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Hotter Than July"], ["artist", "Stevie Wonder"], ["released", "1980"], ["created_at", "2018-05-16 19:36:35.487441"], ["updated_at", "2018-05-16 19:36:35.487441"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/9
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/albums/9" for 127.0.0.1 at 2018-05-16 15:36:35 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:36:37 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 34ms (Views: 30.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:37:28 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:37:42 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lFgg/Vmu3EcQBARMu2eS7aACxy+B8NPz48+HXM4qJ0+9fOugv99oXLEq7Ke6vdhuxlmgfxN7Raunc370jF672Q==", "album"=>{"title"=>"Multi-Love", "artist"=>"Unknown Mortal Orchestra", "released"=>"2015"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.6ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Multi-Love"], ["artist", "Unknown Mortal Orchestra"], ["released", "2015"], ["created_at", "2018-05-16 19:37:42.308482"], ["updated_at", "2018-05-16 19:37:42.308482"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/10
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/albums/10" for 127.0.0.1 at 2018-05-16 15:37:42 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 37.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:37:43 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:37:44 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:39:18 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZMznwZkey4eceaslAUtNPPNZ26hobtf/7yb1EYm/syZN6Cycf29/nD1XQ84AkQe/lQK8+PrlQaermgy5y8svsA==", "album"=>{"title"=>"Vol. 2: The New Reality", "artist"=>"Guru Jazzmataz", "released"=>"1995"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.4ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Vol. 2: The New Reality"], ["artist", "Guru Jazzmataz"], ["released", "1995"], ["created_at", "2018-05-16 19:39:18.075576"], ["updated_at", "2018-05-16 19:39:18.075576"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/11
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/albums/11" for 127.0.0.1 at 2018-05-16 15:39:18 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:39:20 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:44:42 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:50:08 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 29ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:50:23 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gE1ZBPGoUq6B5VYn0vN7lyNE+dpjreeEQkha7MCrX+upaZJZF9nmtSDLvszTKTEURR+eivEmcdwG9KNEgt/DfQ==", "album"=>{"title"=>"Midnight Believer", "artist"=>"BB King", "released"=>"1978"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.9ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Midnight Believer"], ["artist", "BB King"], ["released", "1978"], ["created_at", "2018-05-16 19:50:23.177976"], ["updated_at", "2018-05-16 19:50:23.177976"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/12
+Completed 302 Found in 6ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/albums/12" for 127.0.0.1 at 2018-05-16 15:50:23 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:50:24 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 34ms (Views: 30.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:50:54 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:51:06 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mHUWfxY/O3CGFJNJAR0hV7Q2qa95rMFcoWslWiqCGaixUd0i8E6Payc6e6IAx2vU0m3O/+snVwTl19zyaPaFPg==", "album"=>{"title"=>"Sabbath Bloody Sabbath", "artist"=>"Black Sabbath", "released"=>"1974"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.4ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Sabbath Bloody Sabbath"], ["artist", "Black Sabbath"], ["released", "1974"], ["created_at", "2018-05-16 19:51:06.858479"], ["updated_at", "2018-05-16 19:51:06.858479"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/13
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/albums/13" for 127.0.0.1 at 2018-05-16 15:51:06 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:51:07 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/albums/new" for 127.0.0.1 at 2018-05-16 15:51:46 -0400
+Processing by AlbumsController#new as HTML
+  Rendering albums/new.html.erb within layouts/application
+  Rendered albums/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-05-16 15:51:57 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rRYbIrISmmrLxxBd+bz/ypEKJgtVU5DTiRfMneF4VPOEMtB/VGMucWrp+Lb4ZrVJ91FBW8fYBovNqzU1owzIZQ==", "album"=>{"title"=>"Amoroso", "artist"=>"Joao Gilberto", "released"=>"1977"}, "commit"=>"Save Album"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[36mAlbum Create (0.5ms)[0m  [1m[32mINSERT INTO "albums" ("title", "artist", "released", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Amoroso"], ["artist", "Joao Gilberto"], ["released", "1977"], ["created_at", "2018-05-16 19:51:57.200377"], ["updated_at", "2018-05-16 19:51:57.200377"]]
+  ↳ app/controllers/albums_controller.rb:17
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/albums_controller.rb:17
+Redirected to http://localhost:3000/albums/14
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/albums/14" for 127.0.0.1 at 2018-05-16 15:51:57 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 15:52:03 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:14:03 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:14:04 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.1ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:14:08 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:14:09 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:15:14 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:15:15 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:17:12 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:19:43 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/app/assets/config
+  /Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/app/assets/images
+  /Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/app/assets/javascripts
+  /Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/app/assets/stylesheets
+  /Users/jacob/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/jacob/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actioncable-5.2.0/lib/assets/compiled
+  /Users/jacob/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activestorage-5.2.0/app/assets/javascripts
+  /Users/jacob/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionview-5.2.0/lib/assets/compiled
+  /Users/jacob/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/jacob/Momentum/rails-record-collection-jacobfh/record-collection-app/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1615120639112139908_70250639935500'
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:20:53 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jacob/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 2877ms (Views: 2865.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:29:07 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums/14" for 127.0.0.1 at 2018-05-16 16:29:09 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:35
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 26.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:30:00 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:30:35 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (3.3ms)
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:30:36 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2373ms (Views: 2371.2ms | ActiveRecord: 0.3ms)
+
+
+Completed 200 OK in 1881ms (Views: 1878.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:30:47 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 42ms (Views: 39.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/albums" for 127.0.0.1 at 2018-05-16 16:31:02 -0400
+Processing by AlbumsController#index as HTML
+  Rendering albums/index.html.erb within layouts/application
+  [1m[36mAlbum Load (0.2ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  ↳ app/views/albums/index.html.erb:12
+  Rendered albums/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 38ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
